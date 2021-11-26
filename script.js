@@ -8,3 +8,6 @@ $(document).ready(function(){
         }
     });
 });
+
+//TODO add traffic dashboard
+//TODO add email form submission

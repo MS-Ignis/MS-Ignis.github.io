@@ -226,4 +226,34 @@ nav{
 }
 
 
+/*tablet view*/
+@media all and (min-width: 460px){
+    .logo-image-container{
+        grid-template-columns: 30% 40% 30%;
+    }
+
+    .logo-image-container * {
+        grid-column: 2/3;
+    }
+    .logo-image{
+        width: 100%;
+    }
+}
+
+/*Laptop View*/
+@media all and (min-width: 780px){
+    .logo-image-container{
+        grid-template-columns:40% 20% 40%;
+        /* background-color:mediumaquamarine; */
+    }
+
+    .logo-image-container * {
+        grid-column: 2/3;
+    }
+    .logo-image{
+        width: 100%;
+    }
+}
+
+
 /*Footer*/
