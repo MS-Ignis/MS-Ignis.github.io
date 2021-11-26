@@ -152,17 +152,13 @@ window.onload = function() {
         
         </style>
         <ul class="menu">
-            <li class="logo"><a href="#">Barely Bearded</a></li>
-            <li class="item"><a href="#">Home</a></li>
+            <li class="logo"><a href="./index.html">Barely Bearded</a></li>
+            <li class="item"><a href="./index.html">Home</a></li>
             <li class="item"><a href="#">About</a></li>
             <li class="item"><a href="https://thepandemicpoet.wordpress.com/">thePandemicPoet</a></li>
             <li class="item button"><a href="#">Sign up</a></li>
             <li class="toggle"><span class="bars"></span></li>
         </ul>
     `;
-    console.log(document.body)
-
     document.body.prepend(navigationMenu);
-
-    console.log("done")
 }
