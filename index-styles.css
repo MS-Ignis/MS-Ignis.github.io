@@ -210,10 +210,20 @@ nav{
 }
 
 /*Logo Image*/
-.logo-image{
+/*Mobile View*/
+.logo-image-container{
+    display:grid;
     padding-top: 25px;
     padding-bottom: 25px;
-    width: 100%;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vw; */
 }
+
+.logo-image{
+    width: 100vw;
+}
+
 
 /*Footer*/
